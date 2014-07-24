@@ -3,7 +3,7 @@
 }
 
 .container.home {
-	background: url("../img/bg-anime.png") no-repeat 30px 50px fixed;
+	background: url("../images/bg-anime.png") no-repeat 30px 50px fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
