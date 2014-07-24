@@ -1,5 +1,9 @@
 @media only screen and (max-device-width: 480px) {
 	.container.home {
-		padding: 20% 30% 100%;
+		padding: 50% 30% 70%;
+	}
+
+	.heading {
+		color: #1f1f1f;
 	}
 }
