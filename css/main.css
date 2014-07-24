@@ -1,3 +1,11 @@
+/* MOBILE */
+@media only screen and (max-device-width: 480px) {
+	.container.home {
+		padding: 20% 30% 100%;
+	}
+}
+
+/* DESKTOP */
 .container {
 	text-align: center;
 }
@@ -9,12 +17,12 @@
 	-o-background-size: cover;
 	background-size: cover;
 	height: auto;
-	margin-left: 0;
+	padding: 20% 30% 30%;
 	text-align: right;
 	width: auto;
 }
 
 .heading {
-	color: #333;
+	color: #7e7e7e;
 	font-family: 'Lobster Two', Arial, sans-serif;
 }
