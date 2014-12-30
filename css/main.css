@@ -1,20 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-	text-align: center;
+  overflow: hidden;
 }
 
-.container.home {
-	background: url("../images/bg-anime.png") no-repeat 30px 50px fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: auto;
-	padding: 20% 30% 30%;
-	text-align: right;
-	width: auto;
+.anime-container {
+  background-size: cover;
+  float: left;
+  padding-bottom: 40%;
+  width: 25%;
 }
 
-.heading {
-	color: #7e7e7e;
-	font-family: 'Lobster Two', Arial, sans-serif;
+.anime-container.left {
+  margin: 5% 3% 5% 6%;
+  background-image: url('../images/anime-char-1.jpg');
+  background-position: 10% 50%;
+}
+
+.anime-container.middle {
+  margin: 2% 3% 5% 3%;
+  background-image: url('../images/anime-char-2.jpg');
+  background-position: 49% 50%;
+}
+
+.anime-container.right {
+  margin: 8% 5% 5% 3%;
+  background-image: url('../images/anime-char-3.jpg');
+  background-position: 95% 50%;
 }
