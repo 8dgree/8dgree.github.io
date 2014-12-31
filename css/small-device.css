@@ -13,6 +13,10 @@ and (max-device-width : 480px) {
   .card-container.right {
     margin: 5% auto;
   }
+
+  .card .back {
+    padding: 46% 0;
+  }
 }
 
 /* Smartphones (landscape) ----------- */
@@ -27,7 +31,11 @@ and (min-width : 321px) {
   .card-container.left,
   .card-container.middle,
   .card-container.right {
-    margin: 5%;
+    margin: 5% auto;
+  }
+
+  .card .back {
+    padding: 46% 0;
   }
 }
 
@@ -43,7 +51,11 @@ and (max-width : 320px) {
   .card-container.left,
   .card-container.middle,
   .card-container.right {
-    margin: 5%;
+    margin: 5% auto;
+  }
+
+  .card .back {
+    padding: 46% 0;
   }
 }
 
