@@ -2,15 +2,15 @@
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-  .anime-container {
+  .card-container {
     float: none;
     padding-bottom: 80%;
     width: 80%;
   }
 
-  .anime-container.left,
-  .anime-container.middle,
-  .anime-container.right {
+  .card-container.left,
+  .card-container.middle,
+  .card-container.right {
     margin: 5% auto;
   }
 }
@@ -18,15 +18,15 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-  .anime-container {
+  .card-container {
     float: none;
     padding-bottom: 80%;
     width: 80%;
   }
 
-  .anime-container.left,
-  .anime-container.middle,
-  .anime-container.right {
+  .card-container.left,
+  .card-container.middle,
+  .card-container.right {
     margin: 5%;
   }
 }
@@ -34,15 +34,15 @@ and (min-width : 321px) {
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-  .anime-container {
+  .card-container {
     float: none;
     padding-bottom: 80%;
     width: 80%;
   }
 
-  .anime-container.left,
-  .anime-container.middle,
-  .anime-container.right {
+  .card-container.left,
+  .card-container.middle,
+  .card-container.right {
     margin: 5%;
   }
 }
