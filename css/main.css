@@ -3,31 +3,115 @@ body {
   padding: 0;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+}
+
 .container {
   overflow: hidden;
+  font-family: 'Lobster Two', Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
 }
 
-.anime-container {
-  background-size: cover;
+.card-container {
   float: left;
-  padding-bottom: 40%;
+  perspective: 600;
+  position: relative;
   width: 25%;
+  padding-bottom:40%;
 }
 
-.anime-container.left {
+.card-container.left {
   margin: 5% 3% 5% 6%;
-  background-image: url('../images/anime-char-1.jpg');
-  background-position: 10% 50%;
 }
 
-.anime-container.middle {
+.card-container.middle {
   margin: 2% 3% 5% 3%;
-  background-image: url('../images/anime-char-2.jpg');
-  background-position: 49% 50%;
 }
 
-.anime-container.right {
+.card-container.right {
   margin: 8% 5% 5% 3%;
-  background-image: url('../images/anime-char-3.jpg');
-  background-position: 95% 50%;
+}
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border: 1px dotted #bbb;
+}
+
+.card .back {
+  text-align: center;
+  padding: 50% 0;
+  height: auto;
+}
+
+.left .front {
+  background-image: url('https://8dgree.github.io/images/anime-char-1.jpg');
+  background-position: 10% 50%;
+  background-size: cover;
+}
+
+.left .back {
+  background-color: rgb(110, 209, 215);
+  transform: rotateY(180deg);
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.left .back:hover {
+  background-color: rgb(165, 197, 101);
+}
+
+.middle .front {
+  background-image: url('https://8dgree.github.io/images/anime-char-2.jpg');
+  background-position: 10% 50%;
+  background-size: cover;
+}
+
+.middle .back {
+  background-color: rgb(163, 110, 132);
+  transform: rotateY(180deg);
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.middle .back:hover {
+  background-color: rgb(129, 110, 163);
+}
+
+.right .front {
+  background-image: url('https://8dgree.github.io/images/anime-char-3.jpg');
+  background-position: 10% 50%;
+  background-size: cover;
+}
+
+.right .back {
+  background-color: rgb(122, 193, 190);
+  transform: rotateY(180deg);
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.right .back:hover {
+  background-color: rgb(229, 182, 167);
 }

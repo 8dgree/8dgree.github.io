@@ -11,7 +11,7 @@ and (max-device-width : 480px) {
   .anime-container.left,
   .anime-container.middle,
   .anime-container.right {
-    margin: 5%;
+    margin: 5% auto;
   }
 }
 
